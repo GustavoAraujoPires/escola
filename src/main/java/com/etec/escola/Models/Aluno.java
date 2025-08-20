@@ -11,18 +11,18 @@ public class Aluno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private  Long Id;
+    private  Long id;
     private String name;
     private String telefone;
     private String email;
 
 
     public Long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Long id) {
-        Id = id;
+        id = id;
     }
 
     public String getName() {
